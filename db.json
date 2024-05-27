@@ -1,0 +1,20 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Alura Traker"
+    },
+    {
+      "id": "23a6",
+      "nome": "Estudar Vue"
+    },
+    {
+      "id": "8a27",
+      "nome": "Novo Projeto"
+    },
+    {
+      "id": "6d7c",
+      "nome": "tesdssdf"
+    }
+  ]
+}
