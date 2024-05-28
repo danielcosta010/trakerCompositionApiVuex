@@ -19,7 +19,7 @@ import { defineComponent } from "vue";
 import { TipoNotificacao } from "@/interfaces/INotificacao";
 
 import useNotificador from '@/hooks/notificador'
-import { ALTERAR_PROJETO, CADASTRAR_PROJETO } from "@/store/tipos-de-acoes";
+import { ALTERAR_PROJETO, CADASTRAR_PROJETO } from "@/store/tipos-acoes";
 
 export default defineComponent({
   name: "FormularioView",
