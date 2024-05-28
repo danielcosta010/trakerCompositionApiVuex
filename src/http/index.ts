@@ -1,8 +1,10 @@
 import axios, { AxiosInstance } from "axios";
 
+const httpClient: AxiosInstance = axios.create({
+  baseURL: "http://localhost:3000/",
+  headers: {
+    "Content-type": "application/json",
+  },
+});
 
-const clienteHttp: AxiosInstance = axios.create({
-  baseURL: 'http://localhost:3000/',
-})
-
-export default clienteHttp
+export default httpClient;
