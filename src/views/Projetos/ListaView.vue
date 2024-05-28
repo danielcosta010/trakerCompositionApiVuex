@@ -42,7 +42,7 @@
 import { useStore } from "@/store";
 import { computed, defineComponent } from "vue";
 
-import { OBTER_PROJETOS, REMOVER_PROJETO } from "@/store/tipos-de-acoes";
+import { OBTER_PROJETOS, REMOVER_PROJETO } from "@/store/tipos-acoes";
 
 export default defineComponent({
   name: "ListaView",
