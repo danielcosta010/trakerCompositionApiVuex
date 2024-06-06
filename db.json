@@ -1,3 +1,50 @@
 {
-  "projetos": []
+  "projetos": [
+    {
+      "id": "1",
+      "nome": "Novo projeto"
+    },
+    {
+      "id": "2",
+      "nome": "Estudar Vue"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": "1",
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração do ambiente Vue",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura traker 3.0"
+      }
+    },
+    {
+      "id": "5dc6",
+      "duracaoEmSegundos": 3,
+      "descricao": "Teste vue3",
+      "projeto": {
+        "id": "2",
+        "nome": "Estudar Vue"
+      }
+    },
+    {
+      "id": "a735",
+      "duracaoEmSegundos": 5,
+      "descricao": "Refatorando o código",
+      "projeto": {
+        "id": "1",
+        "nome": "Novo projeto"
+      }
+    },
+    {
+      "id": "6afb",
+      "duracaoEmSegundos": 3,
+      "descricao": "Fire Fox",
+      "projeto": {
+        "id": "1",
+        "nome": "Novo projeto"
+      }
+    }
+  ]
 }
