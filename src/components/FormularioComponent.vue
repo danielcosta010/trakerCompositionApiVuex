@@ -35,7 +35,7 @@ import { computed, defineComponent, ref } from "vue";
 import Temporizador from "./TemporizadorComponent.vue";
 import { useStore } from 'vuex'
 
-import { key } from '@/store/modulos/tarefas'
+import { key } from '@/store'
 
 export default defineComponent({
   name: "FormularioComponent",
