@@ -15,6 +15,10 @@
     {
       "id": "4",
       "nome": "Estudar Vue compositions"
+    },
+    {
+      "id": "5",
+      "nome": "Json Api"
     }
   ],
   "tarefas": [
@@ -61,6 +65,15 @@
       "projeto": {
         "id": "2",
         "nome": "Estudar Vue"
+      }
+    },
+    {
+      "id": "cc5f",
+      "duracaoEmSegundos": 5,
+      "descricao": "Teste",
+      "projeto": {
+        "id": "5",
+        "nome": "Json Api"
       }
     }
   ]
