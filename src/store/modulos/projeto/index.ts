@@ -1,8 +1,8 @@
 import http from "@/http";
 import IProjeto from "@/interfaces/IProjeto";
-import { Estado } from "@/store";
+import { Estado } from "@/store/";
 import { ADICIONA_PROJETO, ALTERA_PROJETO, EXCLUIR_PROJETO, DEFINIR_PROJETOS } from "@/store/tipo-mutacoes";
-import { OBTER_PROJETOS, CADASTRAR_PROJETO, ALTERAR_PROJETO, REMOVER_PROJETO } from "@/store/tipos-acoes";
+import { OBTER_PROJETOS, CADASTRAR_PROJETO, ALTERAR_PROJETO, REMOVER_PROJETO } from "@/store/tipo-acoes";
 import { Module } from "vuex";
 
 export interface EstadoProjeto {
