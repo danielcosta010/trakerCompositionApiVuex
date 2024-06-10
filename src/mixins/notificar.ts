@@ -1,6 +1,6 @@
 import { TipoNotificacao } from "@/interfaces/INotificacao"
 import { NOTIFICAR } from "@/store/tipo-mutacoes"
-import { store } from '@/store'
+import { store } from '@/store/modulos/tarefas'
 
 export const notificacaoMixin = {
     methods: {
