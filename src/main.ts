@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import '@fortawesome/fontawesome-free/css/all.css'
 import roteador from './roteador'
-import { key, store } from './store'
+import { key, store } from './store/modulos/tarefas'
 
 createApp(App)
     .use(roteador)
